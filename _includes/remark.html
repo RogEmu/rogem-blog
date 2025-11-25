@@ -1,31 +1,10 @@
 <!-- Remark42 comments embed -->
-<div>
-  <script>
-      const themeMapper = Theme.getThemeMapper('light', 'dark_dimmed');
-      const initTheme = themeMapper[Theme.visualState];
-      var remark_config = {
-        host: "https://remark42.rogem.dev",
-        site_id: "remark",
-        theme: initTheme,
-        components: ['embed', 'counter'],
-      }
-
-      window.addEventListener('message', (event) => {
-        if (event.source === window && event.data && event.data.id === Theme.ID){
-          const newTheme = themeMapper[Theme.visualState] === "dark_dimmed" ? "dark" : "light";
-          window.REMARK42.changeTheme(newTheme)
-        }
-      });
-  </script>
-
-  <div class="flex flex-row items-end">
-      <i class="fa-solid fa-comment-dots"></i>
-      Number of comments:
-      <span
-        class="remark42__counter"
-        data-url={{ page.url }}
-      ></span>
-  </div>
-  <div id="remark42"></div>
-  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
-</div>
+<script>
+    var remark_config = {
+      host: "https://remark42.rogem.dev",
+      site_id: "remark",
+      components: ['embed', 'counter'],
+    }
+</script>
+<div id="remark42"></div>
+<script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
