@@ -6,6 +6,11 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+RogemTeam:
+  name: The Rogem Team
+  twitter:
+  url: https://github.com/rogemu
+
 Sacha:
   name: Sacha TOPALOFF
   twitter:

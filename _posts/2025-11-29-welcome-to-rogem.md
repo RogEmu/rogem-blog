@@ -2,7 +2,6 @@
 layout: post
 title: Welcome to RogEm
 date: 2025-11-29 20:00 +0100
-author: Sacha
 tags: [rogem, updates]
 ---
 
@@ -24,4 +23,4 @@ Don't hesitate to share your thoughts with us in the comments section.
 
 Thank you for having read all the way, we can't we to share more with you.
 
---- Sacha, from the RogEm Team
+--- The RogEm Team
