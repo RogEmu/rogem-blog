@@ -35,7 +35,6 @@ The DMA has 3 different modes of operation :
 - Burst mode (transfer data all at once after a Data Request signal is received)
 - Slice mode (split data into blocks, transfer next block whenever the Data Request signal is received)
 - [[2026-01-03-direct-memory-access-dma#Linked List Mode|Linked List]] mode
-- [[2025-11-29-welcome-to-rogem]]
 
 ### DMA Registers
 The DMA Controller (DMAC) has 7 channels for hardware peripherals and IO (GPU, SPU, CDROM, etc.)
