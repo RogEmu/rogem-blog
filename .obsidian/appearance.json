@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "baseFontSizeAction": false,
+  "showRibbon": true,
+  "showViewHeader": true,
+  "monospaceFontFamily": "JetBrains Mono",
+  "accentColor": "#d7b760",
+  "nativeMenus": false,
+  "baseFontSize": 16
+}
