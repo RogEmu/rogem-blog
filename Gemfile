@@ -6,6 +6,7 @@ gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
 
 gem "html-proofer", "~> 5.0", group: :test
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem "jekyll-wikirefs", "0.0.16"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
