@@ -31,7 +31,7 @@ The GTE is implemented as **Coprocessor 2 (COP2)** of the PlayStation’s R3000A
 Unlike peripherals such as the GPU or SPU, the GTE is not accessed through memory-mapped registers.  
 Instead, it is controlled using special CPU instructions (`COP2` opcodes) that directly operate on its internal registers.
 
-The CPU sends vectors, matrices and parameters into the GTE, executes a GTE instruction, and reads the results back a few cycles later.
+The CPU sends vectors, matrices, and parameters into the GTE, executes a GTE instruction, and reads the results back a few cycles later.
 
 The GTE is designed around a **pipeline**: several operations can be in flight at the same time, and many instructions have execution delays before their results become available.
 
@@ -67,9 +67,9 @@ Together, these registers define how 3D data is transformed and lit.
 
 ## Second part of the article
 
-Since the GTE is a big part of the Playstation, we decided to divide this article in two part.
+Since the GTE is a big part of the Playstation, we decided to divide this article into two parts.
 
-The first part you just read was an overhaul of what is a GTE and how it works. 
+The first part you just read was an overhaul of what a GTE is and how it works. 
 It will soon be followed by a second, bigger part with in-depth coverage of how it functions and how we implemented it.
 
 ## References
